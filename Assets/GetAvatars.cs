@@ -14,7 +14,7 @@ public class GetAvatars : MonoBehaviour
 
     IEnumerator GetResults()
     {
-        using (UnityWebRequest webRequest = UnityWebRequest.Get("http://192.168.56.101/php.list"))
+        using (UnityWebRequest webRequest = UnityWebRequest.Get("http://192.168.56.102/php.list"))
         {
             //PlayerSettings.InsecureHttpOption.AlwaysAllowed;
            
